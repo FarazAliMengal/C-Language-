@@ -1,0 +1,12 @@
+#include <stdio.h>
+void faraz()
+{
+	printf("Faraz Ali Mengal");
+}
+
+
+int main()
+{
+	faraz();
+	return 0;
+}
