@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+	int num[5];
+	char name[5];
+	
+	printf("Enter Your Name :");
+	scanf("%s",&name[0]);
+	
+	printf("Enter Your Department :");
+	scanf("%s",&name[1]);
+	
+	printf("Enter Your University Name :");
+	scanf("%s",&name[2]);
+	
+	printf("Enter Your Roll No:");
+	scanf("%s",&name[3]);
+	
+	printf("Enter Your Java Marks:");
+	scanf("%d",&num[0]);
+	
+	printf("Enter Your  Css Marks:");
+	scanf("%d",&num[1]);
+	
+	printf("Enter your Html Marks :");
+	scanf("%d",&num[2]);
+	
+	int totalmarks=300;
+	int obtain=num[0]+num[1]+num[2];
+	
+	printf("My Name is:%s",name[0]);
+	printf("DepartMent is:%s",name[1]);
+	printf("University :",name[2]);
+	printf("Roll No:",name[3]);
+	
+}
